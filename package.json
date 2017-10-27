@@ -1,0 +1,22 @@
+{
+  "name": "react-native-chatty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ctsco/react-native-chatty.git",
+  "author": "Chris Turns <christurns@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --watch server --watch package.json server/index.js --exec babel-node --presets es2015,stage-2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.9.0",
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
